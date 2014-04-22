@@ -1,9 +1,6 @@
 var map;
 function initialize() {
-  var myLatLng = new google.maps.LatLng(28.665286,77.236419);
-  var myLatLng1 = new google.maps.LatLng(28.47352,77.025726);
-  var myLatLng2 = new google.maps.LatLng(28.551354,77.393081);
-  var myLatLng3 = new google.maps.LatLng(28.420995,77.318237);
+  var myLatLng = new google.maps.LatLng(12.93156,77.623256);
 
   var mapOptions = {
 	zoom: 10,
