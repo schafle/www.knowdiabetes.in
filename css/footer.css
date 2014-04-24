@@ -1,0 +1,37 @@
+footer#worlds_end {
+  *zoom: 1;
+  padding: 1.5em 20px;
+  background: url(../images/arches.png);
+  font-size: small;
+}
+footer#worlds_end:before,
+footer#worlds_end:after {
+  content: "";
+  display: table;
+}
+footer#worlds_end:after {
+  clear: both;
+}
+footer#worlds_end div#license {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(/assets/js/libs/boxsizing.htc);
+  display: inline;
+  float: left;
+  width: 58.333333333333336%;
+  padding: 0 20px;
+  *width: 58.28562340966921%;
+}
+footer#worlds_end div#contact {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(/assets/js/libs/boxsizing.htc);
+  display: inline;
+  float: left;
+  width: 41.66666666666667%;
+  padding: 0 20px;
+  *width: 41.61895674300255%;
+  text-align: right;
+}

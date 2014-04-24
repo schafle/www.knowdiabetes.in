@@ -5,3 +5,16 @@ header#worlds_birth>div nav ul li a.current{
 .faq{
 	padding-left:20px;
 }
+
+form{
+	padding-left:100px;
+}
+
+#map-canvas {
+    height: 610px;
+	padding-bottom:30px;
+}
+
+#worlds_end{
+	
+}
