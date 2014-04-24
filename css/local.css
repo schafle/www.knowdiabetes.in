@@ -1,3 +1,7 @@
-.current{
+header#worlds_birth>div nav ul li a.current{
 	color:#000000;
+}
+
+.faq{
+	padding-left:20px;
 }
