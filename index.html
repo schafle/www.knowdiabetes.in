@@ -29,11 +29,13 @@
 	<link rel="stylesheet" href="css/jquery-ui.css">
 	<script src="js/jquery-1.10.2.js"></script>
 	<script src="js/jquery-ui.js"></script>
-	<!-- <link rel="stylesheet" href="css/accordion.css"> -->
 	<script>
 	  $(function() {
-		$( "#accordion" ).accordion();
-	  });
+    $( "#accordion" ).accordion({
+	  collapsible: true,
+      heightStyle: "content"
+    });
+  });
 	</script>
 </head>
 
@@ -132,7 +134,98 @@
 						It is the commonly occuring type 0f daibetes. , the insulin secretion by pancreas is either insufﬁcient, inadequate and / or inefﬁcient in the body. As a result, the glucose cannot be absorbed into the body’s cells for utilization as energy and consequently causes the glucose levels in the blood to rise
 					</p>
 				</ul>	
-					<div id="accordion">
+					<!-- <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+	</div> -->
+			</section>
+			
+			<aside>
+
+				<h2>Quick Look</h2>
+				
+				<div>
+					<p class="faq">
+						<ul>
+							<li><a href="#">Common myths about Diabetes</a></li>
+							<li><a href="#">Diabetes and Pregnancy</a></li>
+							<li><a href="#">Diabetes and Sex</a></li>
+							<li>
+								<a href="#">Food habits for Diabetes</a>
+								<ol>
+									<li><a href="#">Food to be avoided</a></li>
+									<li><a href="#">Food to be consumed </a></li>
+									<li><a href="#">Contact dietician</a></li>
+								</ol>
+							</li>
+							<li><a href="#">Who is at risk of acquiring diabetes?</a></li>
+							<li><a href="#">Signs & Symptoms of Diabetes</a></li>
+							<li><a href="#">Complications of Diabetes</a></li>
+							<li><a href="#">Diagnosis of Diabetes</a></li>
+							<li><a href="#">Body Mass Index</a></li>
+							<li><a href="#">BMI chart for Asians</a></li>
+							<li><a href="#">Must do in Diabetes</a></li>
+							<li><a href="#">Must do in Diabetes</a></li>
+							
+							<!-- <li>
+								<a href="#">Complications of Diabetes</a>
+								<ul>
+									<li>
+										<a href="#">Acute(Short term) Hypoglycaemia<a>
+										<p>
+									<li>
+									
+								</ul>
+							</li> -->
+							
+						</ul>
+					</p>
+				</div>
+				<div id="accordion">
   <h3>Section 1</h3>
   <div>
     <p>
@@ -180,49 +273,6 @@
     </p>
   </div>
 	</div>
-			</section>
-			
-			<aside>
-
-				<h2>Quick Look</h2>
-				
-				<div>
-					<p class="faq">
-						<ul>
-							<li><a href="#">Common myths about Diabetes</a></li>
-							<li><a href="#">Diabetes and Pregnancy</a></li>
-							<li><a href="#">Diabetes and Sex</a></li>
-							<li>
-								<a href="#">Food habits for Diabetes</a>
-								<ol>
-									<li><a href="#">Food to be avoided</a></li>
-									<li><a href="#">Food to be consumed </a></li>
-									<li><a href="#">Contact dietician</a></li>
-								</ol>
-							</li>
-							<li><a href="#">Who is at risk of acquiring diabetes?</a></li>
-							<li><a href="#">Signs & Symptoms of Diabetes</a></li>
-							<li><a href="#">Complications of Diabetes</a></li>
-							<li><a href="#">Diagnosis of Diabetes</a></li>
-							<li><a href="#">Body Mass Index</a></li>
-							<li><a href="#">BMI chart for Asians</a></li>
-							<li><a href="#">Must do in Diabetes</a></li>
-							<li><a href="#">Must do in Diabetes</a></li>
-							
-							<!-- <li>
-								<a href="#">Complications of Diabetes</a>
-								<ul>
-									<li>
-										<a href="#">Acute(Short term) Hypoglycaemia<a>
-										<p>
-									<li>
-									
-								</ul>
-							</li> -->
-							
-						</ul>
-					</p>
-				</div>
 			
 			</aside>
 
@@ -231,12 +281,28 @@
 	</div>
 	<footer id="worlds_end">
 		<hr>
-		<div id="license">
-			Licensed under the <a href="">CC Share Alike</a> license. 
-			Do whatever you like with it but be nice huh?
-		</div>
-			
-		<div id="contact">Contact us on twitter at <a href="http://twitter.com/abbandunne">@abbandunne</a> &amp; <a href="http://twitter.com/jimmynotjim">@jimmynotjim</a>.</div>
+		<ul id="footer-list">
+		<li>
+			<div id="license">
+				© 2014 KnowDiabetes.in
+			</div>
+		</li>
+		<li>
+			<div id="social-icons">
+				<img src="images/icons/facebook.png">
+			</div>
+		</li>
+		<li>
+			<div id="contact">
+				<ul id="footer-links">
+					<li>About us</li><li> | </li>
+					<li>FAQs</li><li> | </li>
+					<li>Subscribe</li><li> | </li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</li>
+		</ul>
 	</footer>
 
 </body>
