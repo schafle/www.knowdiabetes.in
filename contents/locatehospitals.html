@@ -59,16 +59,16 @@
 	
   <script type="text/javascript">
     var locations = [
-      ['Bondi Beach', -33.890542, 151.274856, 4],
-      ['Coogee Beach', -33.923036, 151.259052, 5],
-      ['Cronulla Beach', -34.028249, 151.157507, 3],
-      ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
-      ['Maroubra Beach', -33.950198, 151.259302, 1]
+      ['Hospital A', 28.650825,77.2276, 4],
+      ['Hospital B', 28.62009,77.119796, 5],
+      ['Hospital C', 28.573668,77.228286, 3],
+      ['Hospital D',28.618282,77.349823, 2],
+      ['Hospital F', 28.646909,77.235893, 1]
     ];
 
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
       zoom: 10,
-      center: new google.maps.LatLng(-33.92, 151.25),
+      center: new google.maps.LatLng(28.650825,77.2276),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
@@ -90,5 +90,30 @@
       })(marker, i));
     }
   </script>
+  <footer id="worlds_end">
+		<hr>
+		<ul id="footer-list">
+		<li>
+			<div id="license">
+				© 2014 KnowDiabetes.in
+			</div>
+		</li>
+		<li>
+			<div id="social-icons">
+				<img src="../images/icons/facebook.png">
+			</div>
+		</li>
+		<li>
+			<div id="contact">
+				<ul id="footer-links">
+					<li>About us</li><li> | </li>
+					<li>FAQs</li><li> | </li>
+					<li>Subscribe</li><li> | </li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</li>
+		</ul>
+	</footer>
 </body>
 </html>
