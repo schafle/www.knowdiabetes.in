@@ -30,6 +30,7 @@
 	<script src="js/jquery-1.10.2.js"></script>
 	<script src="js/jquery-ui.js"></script>
 	<link rel="stylesheet" href="css/masonry.css">
+	<link rel="stylesheet" href="css/masonry-backgrounds.css">
 	<script src="js/masonry.pkgd.js"></script>
 	<script>
 	  $(function() {
@@ -54,6 +55,26 @@ $(document).ready(function(){
 </head>
 
 <body>
+	<script>
+$('.grow').hover(function() {
+    $(this).stop().animate({
+        left: parseInt(this.style.left)-100,
+        top: parseInt(this.style.top)-100,
+        width: parseInt(this.style.width)+200,
+        height: parseInt(this.style.height)+200
+    }, 300);
+    $('.grow').css('overflow','visible');
+},function() {
+    $(this).stop().animate({
+        //lame hardcoding
+        left: '100px',
+        top: '100px',
+        width: '300px',
+        height: '30px' 
+    }, 300);
+    $('.grow').css('overflow','visible');
+});
+</script>
 
 	<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
@@ -97,20 +118,23 @@ $(document).ready(function(){
 			<section>
 				
 					<div id="masonry" class="masonry js-masonry">
-	  <div class="item w3 h4">
+	  <div id="first" class="item w3 h3 grow">
 		<h1>What is Diabetes?</h1>
-		<!-- <p>The term Diabetes comes from the Greek word for ‘siphon’, as people with diabetes urinate frequently. Diabetes Mellitus is also derived from a Greek word, meaning ‘sweet’, a reference to the presence of sugar in the urine. Diabetes is commonly known as ‘having sugar’ but is often accompanied by the metabolic syndrome which is defined as a cluster of metabolic disorders like insulin resistance, dyslipidaemia (skewed lipid levels), high cholesterol, high triglycerides, hypertension and obesity.</p> -->
+		
 	  </div>
-	  <div class="item w3 h2">2</div>
-	  <div class="item w3 h3">3</div>
-	  <div class="item w3 h3">4</div>
-	  <div class="item w3 h4">5</div>
-	  <div class="item w3 h2">6</div>
-	  <div class="item w3 h3">7</div>
-	  <div class="item w3 h3">8</div>
-	  <div class="item w3 h3">9</div>
-	  <div class="item w3 h3">10</div>
-	  <div class="item w3 h2">11</div>
+	  <div id="second" class="item w3 h2 grow">
+		<h1>Why</h1>
+	  </div>
+	  <div id="third" class="item w3 h3 grow">3</div>
+	  <div id="forth" class="item w3 h3">4</div>
+	  <div id="fifth" class="item w3 h2">5</div>
+	  <div id="sixth" class="item w3 h3">6</div>
+	  <div id="seventh" class="item w3 h4">7</div>
+	  <div id="eighth" class="item w3 h3">8</div>
+	  <div id="ninth" class="item w3 h3">9</div>
+	  <div id="tenth" class="item w3 h3">10</div>
+	  <div id="eleventh" class="item w3 h2">11</div>
+	  <div id="twelfth" class="item w3 h2">12</div>
 	</div>
 				<a name="type"></a>
 
