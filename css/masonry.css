@@ -29,8 +29,8 @@ body { font-family: sans-serif; }
   margin-left: 1.66666666667%;
   /*background: #6bac60; */
   border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.5);
-  /*border-radius: 5px;*/
+  /*border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;*/
   position:relative;
 }
 
@@ -38,6 +38,6 @@ body { font-family: sans-serif; }
 .item.w3 { width:  30%; background-size:100% 100%;}
 .item.w4 { width:  50%; background-size:100% 100%;}
 
-.item.h2 { height: 100px; }
-.item.h3 { height: 200px; }
-.item.h4 { height: 300px; }
+.item.h2 { height: 120px; }
+.item.h3 { height: 240px; }
+.item.h4 { height: 360px; }
