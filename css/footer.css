@@ -1,8 +1,8 @@
 footer#worlds_end {
   *zoom: 1;
-  /*padding: 1.5em 20px;*/
   background: url(../images/arches.png);
   background-color:#000000;
+  margin-top:50px;
   font-size: small;
 }
 footer#worlds_end:before,
@@ -52,9 +52,13 @@ footer#worlds_end div#social-icons {
 
 #footer-list li{
 	display:inline;
+	padding-left:20px;
 }
 
 #social-icons img{
 	width:50px;
 	height:50px;
+}
+a{
+	text-decoration:none;
 }
