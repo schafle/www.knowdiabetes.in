@@ -47,3 +47,24 @@ form{
 	padding: 2px 2px 2px 2px ;
 	text-align:center;
 }
+
+.link-arrow{
+  font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+a:hover .link-arrow {
+  background-position: -5px -30px;
+}
+a:active .link-arrow,
+a:focus .link-arrow {
+  background-position: -5px -52px;
+}
+
+.learn-more {
+color: #9bbd27;
+font-size: 18px;
+vertical-align: middle;
+}
+a.learn-more {
+color: #9bcbcf;
+text-decoration: none;
+}
